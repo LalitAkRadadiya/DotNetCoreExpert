@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aVFzLIryc7MQ/iWRW/nQkhwEkjyOftFaTmIG+AQ5okOnLpLowcTg52V1b8j9HYpdAxeTKNCoETjcbr3kO1+9sg==",
+  "dgSpecHash": "azSUMtvD3NB68/0apRirILk72wBPEhvrdN2XvptCm3axqKzU0gc84sMBpguQP5oTlXaqxEtY6UJFYag7PCzHBQ==",
   "success": true,
   "projectFilePath": "D:\\DotNetCoreExpert\\DNC.MVC\\DNC.MVC.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\lalit.radadiya\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
     "C:\\Users\\lalit.radadiya\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\lalit.radadiya\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\lalit.radadiya\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.5\\microsoft.visualstudio.web.codegeneration.3.1.5.nupkg.sha512",
     "C:\\Users\\lalit.radadiya\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.5\\microsoft.visualstudio.web.codegeneration.contracts.3.1.5.nupkg.sha512",
     "C:\\Users\\lalit.radadiya\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.5\\microsoft.visualstudio.web.codegeneration.core.3.1.5.nupkg.sha512",
