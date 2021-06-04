@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -20,8 +21,13 @@ namespace DNC.MVC.Controllers
 
         private readonly ILogger _logger;
 
-        public ToDoListController(ILogger<ToDoListController> logger)
+        private readonly IOptions<ConfigurationOfcolour> _conf;
+
+        public int ListLimitCount { get; set; }
+
+        public ToDoListController(ILogger<ToDoListController> logger, IOptions<ConfigurationOfcolour> conf)
         {
+            _conf = conf;
             _logger = logger;
             client = new HttpClient();
             client.BaseAddress = baseUrl;
@@ -32,6 +38,7 @@ namespace DNC.MVC.Controllers
             {
                 List<ToDoListModel> modelList = new List<ToDoListModel>();
                 HttpResponseMessage res = client.GetAsync(client.BaseAddress + "/GetAllToDoList").Result;
+                
                 if (res.IsSuccessStatusCode)
                 {
                     string data = res.Content.ReadAsStringAsync().Result;

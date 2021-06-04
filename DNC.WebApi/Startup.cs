@@ -1,3 +1,4 @@
+using AntiXssMiddleware.Middleware;
 using DNC.BAL;
 using DNC.BAL.Manager;
 using Microsoft.AspNetCore.Builder;
@@ -42,6 +43,8 @@ namespace DNC.WebApi
             }
 
             app.UseHttpsRedirection();
+
+            app.UseAntiXssMiddleware();
 
             app.UseRouting();
 

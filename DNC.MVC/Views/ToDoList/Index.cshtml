@@ -1,18 +1,56 @@
 ﻿@model IEnumerable<DNC.Model.ToDoListModel>
+@inject Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnv
 
+@inject Microsoft.Extensions.Options.IOptions<ConfigurationOfcolour> conf
 @{
     ViewData["Title"] = "Index";
 }
-
+@if (@hostingEnv.EnvironmentName == @conf.Value.dev)
+{
+    <h1>White</h1>
+}
+else
+{
+    <h1>Blue</h1>
+}
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    @if (hostingEnv.EnvironmentName == conf.Value.dev)
+    {
+        @if (Model.Count() < 3)
+        {
+            <a asp-action="Create">Create</a>
+
+        }
+        else
+        {
+            <p>In Dev Environment you can't create more then 3 ToDo list</p>
+        }
+
+
+    }
+    else if (hostingEnv.EnvironmentName == conf.Value.prod)
+    {
+
+        @if (Model.Count() < 5)
+        {
+            <a asp-action="Create">Create</a>
+
+        }
+        else
+        {
+
+            <p>In Prod Environment you can't create more then % ToDo list</p>
+        }
+    }
+    <br />
+    <a> Total Number : @Model.Count()</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th>
+            <th> 
                 @Html.DisplayNameFor(model => model.ID)
             </th>
             <th>
@@ -25,22 +63,23 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsCompleted)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { onclick = "return confirm('are you sure? ')" })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsCompleted)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { onclick = "return confirm('are you sure? ')" })
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
