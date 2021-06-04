@@ -1,0 +1,14 @@
+D:\DotNetCoreExpert\DNC.BAL\bin\Debug\netcoreapp3.1\DNC.BAL.deps.json
+D:\DotNetCoreExpert\DNC.BAL\bin\Debug\netcoreapp3.1\DNC.BAL.dll
+D:\DotNetCoreExpert\DNC.BAL\bin\Debug\netcoreapp3.1\DNC.BAL.pdb
+D:\DotNetCoreExpert\DNC.BAL\bin\Debug\netcoreapp3.1\DNC.DAL.dll
+D:\DotNetCoreExpert\DNC.BAL\bin\Debug\netcoreapp3.1\DNC.Model.dll
+D:\DotNetCoreExpert\DNC.BAL\bin\Debug\netcoreapp3.1\DNC.DAL.pdb
+D:\DotNetCoreExpert\DNC.BAL\bin\Debug\netcoreapp3.1\DNC.Model.pdb
+D:\DotNetCoreExpert\DNC.BAL\obj\Debug\netcoreapp3.1\DNC.BAL.csprojAssemblyReference.cache
+D:\DotNetCoreExpert\DNC.BAL\obj\Debug\netcoreapp3.1\DNC.BAL.AssemblyInfoInputs.cache
+D:\DotNetCoreExpert\DNC.BAL\obj\Debug\netcoreapp3.1\DNC.BAL.AssemblyInfo.cs
+D:\DotNetCoreExpert\DNC.BAL\obj\Debug\netcoreapp3.1\DNC.BAL.csproj.CoreCompileInputs.cache
+D:\DotNetCoreExpert\DNC.BAL\obj\Debug\netcoreapp3.1\DNC.BAL.csproj.CopyComplete
+D:\DotNetCoreExpert\DNC.BAL\obj\Debug\netcoreapp3.1\DNC.BAL.dll
+D:\DotNetCoreExpert\DNC.BAL\obj\Debug\netcoreapp3.1\DNC.BAL.pdb

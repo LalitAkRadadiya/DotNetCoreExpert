@@ -1,0 +1,15 @@
+D:\DotNetCoreExpert\DNC.DAL\bin\Debug\netcoreapp3.1\DNC.DAL.deps.json
+D:\DotNetCoreExpert\DNC.DAL\bin\Debug\netcoreapp3.1\DNC.DAL.runtimeconfig.json
+D:\DotNetCoreExpert\DNC.DAL\bin\Debug\netcoreapp3.1\DNC.DAL.runtimeconfig.dev.json
+D:\DotNetCoreExpert\DNC.DAL\bin\Debug\netcoreapp3.1\DNC.DAL.dll
+D:\DotNetCoreExpert\DNC.DAL\bin\Debug\netcoreapp3.1\DNC.DAL.pdb
+D:\DotNetCoreExpert\DNC.DAL\bin\Debug\netcoreapp3.1\DNC.Model.dll
+D:\DotNetCoreExpert\DNC.DAL\bin\Debug\netcoreapp3.1\DNC.Model.pdb
+D:\DotNetCoreExpert\DNC.DAL\obj\Debug\netcoreapp3.1\DNC.DAL.csprojAssemblyReference.cache
+D:\DotNetCoreExpert\DNC.DAL\obj\Debug\netcoreapp3.1\DNC.DAL.AssemblyInfoInputs.cache
+D:\DotNetCoreExpert\DNC.DAL\obj\Debug\netcoreapp3.1\DNC.DAL.AssemblyInfo.cs
+D:\DotNetCoreExpert\DNC.DAL\obj\Debug\netcoreapp3.1\DNC.DAL.csproj.CoreCompileInputs.cache
+D:\DotNetCoreExpert\DNC.DAL\obj\Debug\netcoreapp3.1\DNC.DAL.csproj.CopyComplete
+D:\DotNetCoreExpert\DNC.DAL\obj\Debug\netcoreapp3.1\DNC.DAL.dll
+D:\DotNetCoreExpert\DNC.DAL\obj\Debug\netcoreapp3.1\DNC.DAL.pdb
+D:\DotNetCoreExpert\DNC.DAL\obj\Debug\netcoreapp3.1\DNC.DAL.genruntimeconfig.cache

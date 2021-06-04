@@ -1,0 +1,8 @@
+D:\DotNetCoreExpert\DNC.Model\bin\Debug\netcoreapp3.1\DNC.Model.deps.json
+D:\DotNetCoreExpert\DNC.Model\bin\Debug\netcoreapp3.1\DNC.Model.dll
+D:\DotNetCoreExpert\DNC.Model\bin\Debug\netcoreapp3.1\DNC.Model.pdb
+D:\DotNetCoreExpert\DNC.Model\obj\Debug\netcoreapp3.1\DNC.Model.AssemblyInfoInputs.cache
+D:\DotNetCoreExpert\DNC.Model\obj\Debug\netcoreapp3.1\DNC.Model.AssemblyInfo.cs
+D:\DotNetCoreExpert\DNC.Model\obj\Debug\netcoreapp3.1\DNC.Model.csproj.CoreCompileInputs.cache
+D:\DotNetCoreExpert\DNC.Model\obj\Debug\netcoreapp3.1\DNC.Model.dll
+D:\DotNetCoreExpert\DNC.Model\obj\Debug\netcoreapp3.1\DNC.Model.pdb
